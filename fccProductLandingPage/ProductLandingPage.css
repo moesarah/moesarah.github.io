@@ -1,0 +1,127 @@
+#html{
+  background: white;
+}
+/*#header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background: #FFE4E1;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  height: 125px;
+  padding-top: 10px;
+  position: fixed;
+}*/
+#header-img{
+  width: 300px;
+  height: auto;
+}
+#nav-bar{
+}
+#imgNavPaw{
+  height: 30px;
+  border-radius: 50%;
+}
+.Nav-Link{
+  background: white;
+  box-shadow:3px 3px 6px black;
+  border-radius: 20px;
+  padding-top: 8px;
+  padding-left: 8px;
+  padding-right: 8px;
+  margin: auto 15px auto 15px;
+  font-size: 30px;
+  color: #50342B;
+  font-family: "Sniglet Regular";
+  font-weight: bold;
+}
+.Nav-Link:hover {
+  box-shadow:3px 3px 6px inset black;
+}
+#lifehacks{
+  font-size: 35px;
+  padding: 150px 50px 50px 50px;
+}
+#flex-lifehacks{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: "Sniglet Regular"
+}
+#img-lifehacks{
+  height: 130px;
+}
+#tutorials{
+  font-size: 20px;
+  text-align: center;
+  font-family: "Sniglet Regular"
+}
+#video{
+  display: block;
+  margin: 0 auto;
+  width: 590px;
+  height: 330px;
+}
+#youtubelink{
+  text-decoration: none; 
+  color: black;
+}
+#youtubelink:hover{
+  background: #FFE4E1;
+  border-radius: 50px;
+}
+#form{
+  font-size: 20px;
+  text-align: center;
+  font-family: "Sniglet Regular"
+}
+.field {
+  width: 400px;
+  height: 50px;
+  border-radius: 50px;
+  border: solid 4px #FFE4E1;
+  box-shadow:3px 3px 6px #FFE4E1;
+  padding-left: 20px;
+  font-size: 18px;
+  font-family: "Sniglet Regular" 
+}
+#submit {
+  display: inline-block;
+  margin: auto;
+  width: 150px;
+  height: 50px;
+  border-radius: 50px;
+  background: white;
+  border: solid 4px #FFE4E1;
+  box-shadow:3px 3px 6px #FFE4E1;
+  font-size: 18px;
+  font-family: "Sniglet Regular" 
+}
+#submit:hover{
+  box-shadow:3px 3px 6px #FFE4E1 inset;
+}
+#footer{
+  display: block;
+  margin: 0 auto;
+  background: #FFE4E1;
+  width: 90%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 30px;
+  color: #50342B;
+  text-align: right;
+  font-size: 20px;
+  font-family: "Sniglet Regular"
+}
+#cr-link{
+  text-decoration: none;
+  color: #50342B;
+}
+#cr-link:hover{
+  background: white;
+  border-radius: 50px;
+}

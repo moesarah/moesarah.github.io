@@ -1,0 +1,122 @@
+<html id="html">
+
+<head>
+  <link href="http://allfont.net/allfont.css?fonts=sniglet-regular" rel="stylesheet" type="text/css" /> 
+
+  <link rel="stylesheet" type="text/css" href="ProductLandingPage.css">
+
+  <style>
+    #header{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      background: #FFE4E1;
+      width: 100%;
+      top: 0px;
+      left: 0px;
+      right: 0px;
+      height: 125px;
+      padding-top: 10px;
+      position: fixed;
+    }
+    @media (max-width: 1000px) {
+      header {
+        flex-wrap: wrap;
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+
+<main>
+  <header id="header">
+    <div>
+      <a href="https://pusheen.com/" target="_blank">         
+        <img id="header-img" src="https://pusheen.com/wp-content/themes/pusheen-custom/img/logo_combined.svg">
+      </a>
+    </div> 
+    <div>
+      <nav id="nav-bar">
+        <a style="text-decoration:none;" class="Nav-Link" href="#lifehacks">
+          <img id="imgNavPaw" src="https://iphone-image.apkpure.com/v2/app/8/7/8/878ea3888a8dbaca151157c4c36a9593.jpg"> LIFE HACKS
+        </a>
+        <a style="text-decoration:none;" class="Nav-Link" href="#tutorials">
+          <img id="imgNavPaw" src="https://iphone-image.apkpure.com/v2/app/8/7/8/878ea3888a8dbaca151157c4c36a9593.jpg"> TUTORIALS
+        </a>
+        <a style="text-decoration:none;" class="Nav-Link" href="#more">
+          <img id="imgNavPaw" src="https://iphone-image.apkpure.com/v2/app/8/7/8/878ea3888a8dbaca151157c4c36a9593.jpg"> MORE
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <body>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+ 
+    <section id="lifehacks">
+      <div id="flex-lifehacks">
+        <div><img id="img-lifehacks" src="https://cdn140.picsart.com/291765043051211.png?type=webp&to=min&r=640"></div>
+        <div><nobr>Be open-minded to new cultures<nobr></div>
+      </div>
+      <div id="flex-lifehacks">
+        <div><nobr>Treat yourself extra good sometimes<nobr></div>
+        <div><img id="img-lifehacks" src="https://cdn140.picsart.com/297714336079211.png?type=webp&to=min&r=640"></div>
+      </div>
+      <div id="flex-lifehacks">
+        <div><img id="img-lifehacks" src="https://cdn140.picsart.com/294518449155211.png?type=webp&to=min&r=640"></div>
+        <div><nobr>Always believe in magic<nobr></div>
+      </div>
+      <div id="flex-lifehacks">
+        <div><nobr>Be extra ordinary sometimes<nobr></div>
+        <div><img id="img-lifehacks" src="https://cdn131.picsart.com/314648965146211.png?type=webp&to=min&r=640"></div>
+      </div>
+      <div id="flex-lifehacks">
+        <div><img id="img-lifehacks" src="https://cdn141.picsart.com/320185968152211.png?type=webp&to=min&r=640"></div>
+        <div><nobr>And sometimes just not<nobr></div>
+      </div>
+      <div id="flex-lifehacks">
+        <div><nobr>Don't forget to rest and chill<nobr></div>
+        <div><img id="img-lifehacks" src="https://cdn140.picsart.com/302984283317211.png?type=webp&to=min&r=640"></div>
+      </div>
+      <div id="flex-lifehacks">
+        <div><img id="img-lifehacks" src="https://cdn130.picsart.com/299622416457211.png?type=webp&to=min&r=640"></div>
+        <div><nobr>To share with your loved ones<nobr></div>
+      </div>
+      <div id="flex-lifehacks">
+        <div><nobr>But at  the end: Just enjoy life<nobr></div>
+        <div><img id="img-lifehacks" src="https://cdn130.picsart.com/317046268326211.png?type=webp&to=min&r=640"></div>
+      </div>
+    </section>
+
+    <section id="tutorials">
+      <iframe id="video" src="https://www.youtube.com/embed/3nk7q863rhM" 
+        frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+      </iframe>
+      <p>There are a lot more awesome tutorials. Make sure to check out
+        <a id="youtubelink" href="https://www.youtube.com/channel/UCFWi9aUuK7oFksfbWObwcIQ" target="_blank">
+          the official youtube channel.
+        </a>
+      </p>
+    </section>
+
+    <br>
+
+    <section id="more">
+      <form id="form" action="https://www.freecodecamp.org/email-submit">
+        <label id="email-label" for="email">Subscribe for more Pusheen:</label>
+        <br>
+        <input class="field" type="email" id="email" name="email" placeholder="e-mail" required>
+        <input type="submit" id="submit" value="sub">
+      </form>
+    </section>
+
+    <br>
+
+    <footer id="footer">This is just a html/css practice page  -  
+      <a id="cr-link" href="https://pusheen.com/" target="_blank">© 2019 Pusheen Corp.</a> 
+        All Rights Reserved
+    </footer>
+  </body>
+
+</main>
