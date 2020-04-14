@@ -1,0 +1,50 @@
+#html-img {
+  background-image: url("https://image.freepik.com/free-vector/ice-cream-pattern-pink_62298-316.jpg");
+}
+#header {
+  border: solid #ff9999;
+  opacity: 85%;
+  background: white;
+  padding: 20px 50px 20px 50px;
+  margin: 40px 20% 20px 20%;
+  text-align: center;
+}
+#title {
+  color: #b30000;
+}
+#description {
+  color: black;
+  font-family: fantasy;
+  text-align: justify;
+}
+#survey-form {
+  border: solid #ff9999;
+  font-family: fantasy;
+  background: white;
+  opacity: 70%;
+  padding: 10px 50px 20px 50px;
+  margin: 30px 20% 40px 20%;
+}
+#name-label {
+}
+#email-label {
+}
+#number-label {
+}
+#dropdown-label {
+}
+.field {
+  width: 55%;
+  height: 40px;
+}
+#submit {
+  display: block;
+  margin: auto;
+  width: 150px;
+  height: 40px;
+}
+#submit:hover {
+  color: white;
+  background: #ff4d4d;
+  width: 155px;
+}
