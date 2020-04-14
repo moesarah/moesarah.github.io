@@ -1,0 +1,111 @@
+#html{
+  background: #EEE0E5;
+}
+#hr{
+  border: solid 2px #EEE0E5;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+#main-doc{
+  margin: 25px 20px 20px 320px;
+  background: white;
+}
+#navbar{
+  display: block;
+  position: fixed;
+  background: #EEE0E5;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 300px;
+  font-family: "Playfair Display";
+  padding: 25px 0px 0px 20px;
+  text-align: center;
+}
+#titel{
+  background: white;
+  font-size: 22px;
+  text-align: center;
+  margin-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+#navlink{
+  display: block;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-right: 5px;
+  color: black;
+  font-size: 20px;
+}
+#navlink:hover{
+  background: white;
+  color: #8B8386;
+  font-size: 24px;
+}
+#titel_link{
+  color: black;
+}
+#titel_link:hover{
+  background: #8B8386;
+  color: white;
+  font-size: 26px;
+}
+.main-section{
+  font-family: "Playfair Display";
+}
+#flexbox{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+#text{
+  display: block;
+  width: 50%;
+  font-size: 18px;
+  background: white;
+  padding-left: 12px;
+  margin-right: 15px;
+}
+#songtext{
+  display: block;
+  width: 50%;
+  font-size: 14px;
+  background: #EEE0E5;
+  padding: 8px 8px 8px 8px;
+  box-shadow: 3px 3px 6px #8B8386 inset;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+#A_Short_Introduction{
+  font-size: 25px;
+  background: white;
+  padding: 20px 15px 25px 30px;
+}
+#Breakeven_by_The_Script{
+  font-size: 25px;
+  background: white;
+  padding: 20px 30px 25px 30px;
+}
+#With_Me_by_Sum_41{
+  font-size: 25px;
+  background: white;
+  padding: 20px 30px 25px 30px;
+}
+#Dance_With_The_Devil_by_Breaking_Benjamin{
+  font-size: 25px;
+  background: white;
+  padding: 20px 30px 25px 30px;
+}
+#Where_Does_The_Good_Go_by_Tegan_and_Sara{
+  font-size: 25px;
+  background: white;
+  padding: 20px 30px 25px 30px;
+}
+#We_Can_Go_Anywhere_by_Jesse_McCartney{
+  font-size: 25px;
+  background: white;
+  padding: 20px 30px 25px 30px;
+}
