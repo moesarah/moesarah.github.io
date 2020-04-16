@@ -1,0 +1,84 @@
+#body{
+  margin: 0;
+  font-family: monospace;
+}
+#navbar{
+  display: block;
+  position: fixed;
+  background: #b30000;
+  width: 100%;
+  top: 0;
+  height: 60px;
+  padding-top: 15px;
+  text-align: center;
+}
+#navlink{
+  color: white;
+  font-size: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-shadow: 2px 2px 4px #1a0000;
+}
+#navlink:hover{
+  text-shadow: 2px 2px 4px white inset;
+  color: #1a0000;
+}
+#welcome-section{
+  background: #1a001a;
+  padding-top: 0px;
+  margin-top: 0px;
+  display: block;
+  height: 100vh;
+  width: 100%;
+}
+#flex-welcome{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 200px;
+  color: white;
+  font-size: 40px;
+}
+#icon{
+  border-radius: 50%;
+  height: 200px;
+}
+#projects{
+  background: white;
+  text-align: center;
+  font-size: 30px;
+}
+#flex-project{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 50px;
+}
+#link{
+  padding: 5px 5px 5px 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  display: block;
+  background: #1a001a;
+  border-radius: 10px;
+  color: white;
+}
+#link:hover{
+  background: white;
+  color: #1a001a;
+}
+#footer{
+  background: #1a001a;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  display: block;
+  height: 120px;
+  width: 100%;
+  text-align: center;
+}
+#fcc{
+  padding-top: 40px;
+  width: 400px;
+}
